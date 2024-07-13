@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1680px;
+    margin:-15px auto;
+    padding: 0 2%;
+}
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu button {
+    background-color: #e6341a;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #e61a46;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px; 
+    right: -500px; 
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+}
+
+.social-media {
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img {
+    display: block;
+    width: 40px;
+    margin: 30px 0;
+}
+
+
+.texto-sobre {
+    margin-top: 100px;
+    margin-left: -20px;
+    padding-left: -1px;
+    text-align: left;
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 800px;
+    text-align: left;
+}
+
+.center button {
+    background-color: #e6341a;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: -1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.center button:hover {
+    background-color: #e6341a;
+}
+
+footer {
+    background-color: #e6341a;
+    color: white;
+    padding: 200px 0;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.footer-section {
+    margin: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 100px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section .social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section .social-media a {
+    margin: 0 10px;
+}
+
+.footer-section .social-media img {
+    width: 30px;
+    height: 30px;
+}
